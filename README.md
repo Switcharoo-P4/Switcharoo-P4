@@ -21,7 +21,7 @@ Example command to build the code, it can vary depending on your SDE installatio
 ```bash 
 ./p4_build.sh switcharoo.p4
 ```
-You can specify different compilation time parameters:
+You can specify different compilation-time parameters:
 - `ENTRY_TIMEOUT`: timeout of the entries in the cuckoo-hash table (in nanoseconds). Default is 50000.
 - `MAX_LOOPS_WAIT`: number of recirculations before a WAIT packet is sent out. Default is 10.
 - `MAX_LOOPS_INSERT`: number of recirculations of the same packet before the transient states of the corresponding flow are reset. Default is 20.
