@@ -101,7 +101,7 @@ And two ports in the `bloom` pipe:
 2. `RECIRCULATE_PORT_LOOKUP_IP*_TO_CUCKOO`
 
 To handle traffic from a new port, you need to:
-- Define the new ports in the `include/configuration.p4` file;
+- Define the new recirculation ports in the `include/configuration.p4` file;
 - Define new actions in the `include/recirculation_action.p4` file;
 - Add the corresponding entries in the `select_bloom_recirculation_port` in the `cuckoo` pipe (you can follow the pattern of the other entries);
 - Add the corresponding entries in the `select_cuckoo_recirculation_port` in the `bloom` pipe (you can follow the pattern of the other entries).
