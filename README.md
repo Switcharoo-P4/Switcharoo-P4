@@ -1,7 +1,8 @@
 # Switcharoo-P4
 This repository contains the P4 implementation of Switcharoo for Intel Tofino. 
+Switcharoo is a key-value data structure entirely implemented in the data plane that supports millions of modifications per second.
 
-This implementation is tested with **SDE 9.8.0**.
+This implementation is tested with **SDE 9.8.0** and **SDE 9.9.1**.
 
 ## Project Structure
 
@@ -60,6 +61,13 @@ $SDE/run_switchd.sh -p switcharoo -c /absolute/path/to/switcharoo.conf
 ## How to Configure Switcharoo
 
 ### Configure the Ports
+
+<p align="center">
+    ![Port Configuration](img/port-config.png?raw=true)
+</p>
+
+The figure shows the port configuration of Switcharoo.
+
 You can find ports configuration in the `include/configuration.p4` file. Here you can set the output port and 
 the recirculation ports. If you make changes, you need to update the ports value in the `setup.py` file accordingly. 
 
