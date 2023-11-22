@@ -63,7 +63,7 @@ $SDE/run_switchd.sh -p switcharoo -c /absolute/path/to/switcharoo.conf
 ### Configure the Ports
 
 <p align="center">
-    ![Port Configuration](img/port-config.png?raw=true)
+    <img src=img/port-config.png?raw=true" alt="Port Configuration" />
 </p>
 
 The figure shows the port configuration of Switcharoo.
