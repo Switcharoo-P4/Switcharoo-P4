@@ -1,4 +1,9 @@
 # Switcharoo-P4
+
+<p align="right">
+    <a href="https://doi.org/10.5281/zenodo.10184767"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.10184767.svg" alt="DOI"></a>
+</p>
+
 This repository contains the P4 implementation of Switcharoo for Intel Tofino. 
 Switcharoo is a key-value data structure entirely implemented in the data plane that supports millions of modifications per second.
 
